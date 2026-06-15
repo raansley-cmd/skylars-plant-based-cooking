@@ -612,8 +612,10 @@
     .hero-photo { width: 260px; height: 260px; }
     .hero-tag { display: none; }
     .about-inner { grid-template-columns: 1fr; }
-    nav ul { display: none; }
-    nav { gap: 1rem; }
+    nav { flex-wrap: wrap; gap: 0.4rem 0.75rem; padding: 0.4rem 0.75rem; align-items: center; }
+    .nav-logo img { height: 44px; }
+    nav ul { display: flex; flex-wrap: wrap; gap: 0.3rem 0.6rem; }
+    nav ul a { font-size: 0.62rem; letter-spacing: 0.3px; }
   }
 </style>
 </head>
